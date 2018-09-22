@@ -6,4 +6,4 @@ This program change his own signature by rewriting a specific section (.poly)
 `gcc -s -Wall -Wextra -Werror -Wl,--build-id=none -o tanuki tanuki.c`
 
 # Demo
-![Demo](https://imgur.com/a/Se9qQtf)
+![Demo](https://i.imgur.com/PYclH9i.gif)
