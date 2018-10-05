@@ -69,7 +69,7 @@ int main(int argc, char* argv[]) {
     fflush(stdout);
 
     // Open specified file    
-    int fd = open(argv[0], O_RDONLY);
+    int fd = open("/proc/self/exe", O_RDONLY);
     if (fd < 0) {
         perror("! Failed to open file");
         exit(-1);
